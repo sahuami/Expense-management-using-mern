@@ -1,6 +1,6 @@
 # Expense-management-using-mern
 
-question : how api work in this prject
+QUESTION : how api work in this prject
 1. frontend sends a request using = await axios.post("api/v1/transections/get-transection", {...});
 
 2. The proxy in the vite.config.js file intercepts the request and forwards it to the backend.
