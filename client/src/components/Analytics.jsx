@@ -4,7 +4,7 @@ const Analytics = ({ allTransection }) => {
     // category
     const categories = [
         "salary",
-        "tip",
+        "trip",
         "project",
         "food",
         "movie",

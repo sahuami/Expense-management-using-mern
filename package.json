@@ -5,8 +5,8 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    "client": "npm run dev --prefix client",
-    "both": "concurrently \"npm run server\" \"npm run client\" "
+    "dev": "npm run dev --prefix client",
+    "both": "concurrently \"npm start\" \"npm run dev\" "
   },
   "author": "",
   "license": "ISC",

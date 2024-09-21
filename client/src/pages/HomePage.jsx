@@ -238,7 +238,7 @@ const handleDelete = async (record) => {
           <Form.Item label="Category" name="category">
             <Select>
               <Select.Option value="salary">Salary</Select.Option>
-              <Select.Option value="tip">Tip</Select.Option>
+              <Select.Option value="trip">Trip</Select.Option>
               <Select.Option value="project">Project</Select.Option>
               <Select.Option value="food">Food</Select.Option>
               <Select.Option value="movie">Movie</Select.Option>
